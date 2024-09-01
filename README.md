@@ -8,6 +8,18 @@ https://github.com/cheahjs/free-llm-api-resources
 
 
 
+# Active todo:
+- [ ] Get V0.1 of the app working in streamlit with chat
+    - [ ] formatted output properly with editable table
+
+- Install Docker locally to build app image
+- Get pathing working properly in app script
+- Update the prompt for proper formatting
+    - Add a finish for workouts :]
+
+
+
+
 # Initial ideas 
 * Front end to display generated workouts
 
@@ -35,8 +47,6 @@ https://github.com/cheahjs/free-llm-api-resources
     * The LLM might do well enough from just the knowledge base and itself
 
 * High temperature for variability of workouts
-
-
 
 
 * As a side note, this could also apply to BJJ
