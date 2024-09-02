@@ -20,14 +20,20 @@ https://github.com/cheahjs/free-llm-api-resources
     - Make it editable
 - Connect Linux machine to NAS
     - Setup and connect to postgres DB
-
+- Self-host langfuse
 
 
 # Initial ideas 
 * Consider wrapping everything in Langfuse
     * https://langfuse.com/
 
-
+* We need chat history to update our workout list before we get started
+    * Take in previous workout and modify with the given user's update
+    * How do we handle this with the client?
+        * If first query, do generate()
+        * else, do update_response()
+        * Have a counter to keep track of this? 
+        * Or can we just throw it all in the chat history and have the LLM figure it out, probably tbh
 
 * Front end to display generated workouts
 
