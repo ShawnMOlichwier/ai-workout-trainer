@@ -16,11 +16,19 @@ https://github.com/cheahjs/free-llm-api-resources
 - Get pathing working properly in app script
 - Update the prompt for proper formatting
     - Add a finish for workouts :]
-
+- Add format to st.dataframe.  
+    - Make it editable
+- Connect Linux machine to NAS
+    - Setup and connect to postgres DB
 
 
 
 # Initial ideas 
+* Consider wrapping everything in Langfuse
+    * https://langfuse.com/
+
+
+
 * Front end to display generated workouts
 
 * Prompt to give upper body, lower, core, etc. These can came from buttons in the app

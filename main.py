@@ -1,4 +1,9 @@
+"""
+Initial script for display to the user
 
+Will eventually be depricated for a better, TBD, frontend.
+
+"""
 
 
 # import sys
